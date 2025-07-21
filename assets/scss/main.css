@@ -1250,4 +1250,51 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.outline-wrapper .outline-card-1 {
+  background-color: aliceblue;
+  outline: 50px auto aliceblue;
+  border-radius: 8px;
+}
+.outline-wrapper .outline-card-2 {
+  background-color: aliceblue;
+  outline: 14px double white;
+  outline-offset: -20px;
+}
+.outline-wrapper .outline-card-3 {
+  background-color: aliceblue;
+  outline: 8px dotted white;
+  outline-offset: -20px;
+}
+.outline-wrapper .outline-card-4 {
+  background-color: aliceblue;
+  outline: 8px groove #1e2020;
+  outline-offset: -20px;
+}
+.outline-wrapper .outline-card-5 {
+  background-color: aliceblue;
+  outline: 8px ridge #ab3333;
+  outline-offset: -14px;
+}
+.outline-wrapper .outline-card-6 {
+  background-color: aliceblue;
+  outline: 8px outset #1e2020;
+  outline-offset: -14px;
+}
+.outline-wrapper .outline-card-7 {
+  background-color: aliceblue;
+  outline: 8px inset #1e2020;
+  outline-offset: -14px;
+}
+.outline-wrapper p {
+  text-align: center;
+}
+
+.bg-positoon {
+  background-color: aliceblue;
+  width: 400px;
+  height: 400px;
+  position: static;
+  border-radius: 8px;
 }/*# sourceMappingURL=main.css.map */
