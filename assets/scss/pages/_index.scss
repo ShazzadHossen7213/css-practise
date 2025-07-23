@@ -101,13 +101,13 @@
             p{
                 color: #1e2020;
                 font-weight: 600;
-                border-bottom: 1px dotted black;
+                border-bottom: 1px dotted #000000;
             }
         }
         .ttip-1 .tooltiptext {
             visibility: hidden;
             width: 120px;
-            background-color: black;
+            background-color: #000000;
             color: #fff;
             text-align: center;
             border-radius: 6px;
@@ -126,7 +126,7 @@
         margin-left: -5px;
         border-width: 5px;
         border-style: solid;
-        border-color: black transparent transparent transparent;
+        border-color: #000000 transparent transparent transparent;
         }
         .ttip-1:hover .tooltiptext {
         visibility: visible;
