@@ -1382,4 +1382,15 @@ p {
 }
 .main-tooltiop-wrapper .tp-top .ttip-1:hover .tooltiptext {
   visibility: visible;
+}
+
+.main-flexbox-wrapper .flex-container {
+  display: flex;
+  background-color: rgb(11, 40, 94);
+}
+.main-flexbox-wrapper .flex-container .flc {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */
