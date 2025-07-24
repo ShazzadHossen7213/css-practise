@@ -1386,6 +1386,10 @@ p {
 
 .main-flexbox-wrapper .flex-container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
   background-color: rgb(11, 40, 94);
 }
 .main-flexbox-wrapper .flex-container .flc {
@@ -1393,4 +1397,6 @@ p {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  width: 80px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
