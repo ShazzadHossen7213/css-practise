@@ -160,3 +160,38 @@
         }
     }
 }
+
+// Css grid
+
+.grid_main_wrapper{
+    background: #19e90d21;
+    margin: 20px auto;
+    padding: 10px;
+    .grid_main_area{
+        display: grid;
+        // column-gap: 50px;
+        row-gap: 50px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 1fr 2fr;
+        .grid_child{
+            background: #408787;
+            padding: 20px;
+            color: #ffffff;
+            margin: 1%;
+            grid-row: 1 / span 2;
+            h3{
+                color: #ffffff;
+            }
+            p{
+                color: #ffffff;
+                margin-bottom: 20px;
+            }
+            a{
+                background: #29b9b9;
+                padding: 10px 20px;
+                color: #ffffff;
+                display: inline-block;
+            }
+        }
+    }
+}

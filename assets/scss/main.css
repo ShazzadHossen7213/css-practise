@@ -1399,4 +1399,36 @@ p {
   font-size: 30px;
   width: 80px;
   text-align: center;
+}
+
+.grid_main_wrapper {
+  background: rgba(25, 233, 13, 0.1294117647);
+  margin: 20px auto;
+  padding: 10px;
+}
+.grid_main_wrapper .grid_main_area {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 2fr;
+}
+.grid_main_wrapper .grid_main_area .grid_child {
+  background: #408787;
+  padding: 20px;
+  color: #ffffff;
+  margin: 1%;
+  grid-row: 1/span 2;
+}
+.grid_main_wrapper .grid_main_area .grid_child h3 {
+  color: #ffffff;
+}
+.grid_main_wrapper .grid_main_area .grid_child p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.grid_main_wrapper .grid_main_area .grid_child a {
+  background: #29b9b9;
+  padding: 10px 20px;
+  color: #ffffff;
+  display: inline-block;
 }/*# sourceMappingURL=main.css.map */
