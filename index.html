@@ -28,16 +28,29 @@
 
 
     <!--Back to top Start-->
-    <div>
+    <!-- <div>
         <a href="#" class="back-to-top" aria-label="Back to Top">
             <i class="ri-arrow-up-line"></i>
         </a>
-    </div>
+    </div> -->
     <!--Back to top End-->
 
     <!-- Header Area Start Here -->
     <header>
-
+         <div class="container">
+            <div class="row">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+         </div>
+         
     </header>
     <!-- Header Area End Here -->
 
@@ -190,7 +203,7 @@
 
         <!-- CSS FLEX-BOX -->
 
-        <div class="main-flexbox-wrapper">
+        <section class="main-flexbox-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center mt-4 pb-4">
@@ -211,7 +224,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- CSS Grid -->
         <section class="grid_main_wrapper">
@@ -254,13 +267,58 @@
                 </div>
             </div>
         </section>
+        <!-- HTML JAVASCRIPT -->
+          <section class="html_js-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center mt-4 pb-4">
+                            <h2>Html Javascript</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="main_js_html">
+                            <p id="demo">JavaScript can change the style of an HTML element.</p>
+                            <button type="button" onclick="myFunction()">Click Me!</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4">
+                             <nav>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-xl-8">
+                            <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Animi, accusamus! Beatae 
+                            perspiciatis harum qui impedit sint cum, iste 
+                            maxime eos, aperiam delectus ipsa. Autem sed iure
+                             delectus dicta, magnam accusamus!</p>
+                        </div>
+                    </div>
+                </div>
+                
+          </section>
     </main>
     <!-- footer Area Start Here -->
     <footer>    
-
+        <div class="container">
+            <div class="row">
+                <h3>Footer</h3>
+            </div>
+         </div>
     </footer>
     <!-- footer Area End Here -->
-
+    <script>
+    function myFunction() {
+    document.getElementById("demo").style.fontSize = "25px"; 
+    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").style.backgroundColor = "yellow";        
+    }
+    </script>
 
     <!-- Script link -->
 

@@ -1234,6 +1234,25 @@ p {
   }
 }
 
+header {
+  background-color: aqua;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+header nav ul li a {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+footer {
+  background: #dddddd;
+  text-align: center;
+}
+
 .p-relative {
   position: relative;
 }
